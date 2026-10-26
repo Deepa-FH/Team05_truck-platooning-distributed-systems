@@ -1,7 +1,5 @@
 # Proposed communication protocol (Task 1)
 
-**Scope:** educational simulation, not a production automotive V2V protocol.
-
 ## Transport choice
 UDP for periodic, freshness-sensitive `STATUS_UPDATE` datagrams. Application-layer acknowledgment and bounded retries for join/leave coordination. Vehicle deployments may use ITS-G5/GeoNetworking/BTP or C-V2X; the Labroots image does not establish its transport protocol.
 
